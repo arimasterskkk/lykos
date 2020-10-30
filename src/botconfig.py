@@ -26,7 +26,7 @@ SSL_KEYFILE = None # Keyfile for the certfile in PEM format
 
 CHANNEL = "##mywolfgame"
 
-CMD_CHAR = "!"
+CMD_CHAR = "/"
 
 # If your server requires a connection password, or your services package expects
 # a different format if authenticating to NickServ via the PASS command, modify this.
@@ -36,8 +36,8 @@ CMD_CHAR = "!"
 #       from the USERNAME (or NICK) and PASS variables on the top of the file.
 SERVER_PASS = None
 
-OWNERS = ("unaffiliated/wolfbot_admin1",)  # The comma is required at the end if there is only one owner.
-OWNERS_ACCOUNTS = ("1owner_acc",)
+OWNERS = ("unaffiliated/AriForWorld",)  # The comma is required at the end if there is only one owner.
+OWNERS_ACCOUNTS = ("@AriForWorld",)
 
 #RULES = "https://werewolf.chat/Freenode:Rules"
 
